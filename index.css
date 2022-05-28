@@ -4,12 +4,12 @@
 }
 @media screen and (max-width: 399px) {
     html {
-      font-size: 38%;
+      font-size: 42%;
     }
 }
 @media screen and (min-width: 400px) and (max-width: 479px) {
     html {
-      font-size: 44%;
+      font-size: 48%;
     }
 }
 @media screen and (min-width: 480px) and (max-width: 559px) {
@@ -568,8 +568,9 @@
 }
 @media screen and (max-width: 900px) {
     .page_exit {
-      width:4vw;
-      height:4vw;
+        top:3vw;
+      width:6vw;
+      height:6vw;
     }
 }
 .page_exit:hover {
@@ -719,7 +720,7 @@
     background-color:#E72D56;
     position:relative;
 }
-@media screen and (max-width: 1399px) {
+@media screen and (max-width: 1250px) {
     #animation{
         display:none;
     }
