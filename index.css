@@ -285,9 +285,10 @@
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #E72D56);
     cursor: pointer;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
     .readmore-link {
         height:15rem;
+        background-image:none;
     }
 }
 
