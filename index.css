@@ -282,7 +282,7 @@
     color: #FFFFFF;
     font-weight: normal;
     font-size: 1.5rem;
-    background-image: linear-gradient(to bottom, transparent, #E72D56);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #E72D56);
     cursor: pointer;
 }
 @media screen and (max-width: 900px) {
