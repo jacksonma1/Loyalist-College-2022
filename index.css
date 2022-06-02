@@ -276,7 +276,7 @@
     bottom: 0;
     display: flex;
     width: 100%;
-    height: 75%;
+    height: 20rem;
     justify-content: center;
     align-items: flex-end;
     color: #FFFFFF;
@@ -284,6 +284,11 @@
     font-size: 1.5rem;
     background-image: linear-gradient(to bottom, transparent, #E72D56);
     cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    .readmore-link {
+        height:15rem;
+    }
 }
 
 .readmore-link.expand {
@@ -688,8 +693,8 @@
     top: 1vw;
     right: 4vw;
     position: fixed;
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     background-image: url(./assets/exit.svg);
     background-size: cover;
 }
@@ -697,8 +702,8 @@
 @media screen and (max-width: 900px) {
     .page_exit {
         top: 3vw;
-        width: 8vw;
-        height: 8vw;
+        width: 11vw;
+        height: 11vw;
     }
 }
 
