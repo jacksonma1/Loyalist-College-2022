@@ -287,8 +287,8 @@
 }
 @media screen and (max-width: 500px) {
     .readmore-link {
-        height:15rem;
-        background-image:none;
+        height:6.5rem;
+        background-color:#E72D56;
     }
 }
 
