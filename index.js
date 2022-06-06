@@ -108,7 +108,6 @@ function hideAnimation (){
     $(document).ready(function() {
         $('#animation').css('display', 'none');
     });
-    hideNoAnimation ();
 }
 function closeAnimation (){
     hideOne();
