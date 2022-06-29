@@ -14,8 +14,8 @@
     <script defer type="text/javascript" src='index.js'></script>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://use.typekit.net/vke8hug.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
 <body>
@@ -1919,7 +1919,6 @@
         </div>
         <div id="appendix_b_page">
             <div onclick="hideItem('appendix_b_page')" class="page_exit"></div>
-            <img class="header_img" src="./assets/Appendices cover.png">
             <div class="content">
                 <p class="page_subtitle">
                     <br>Appendix B: 2021-2022 Board of Governors<br><br>
@@ -2381,7 +2380,6 @@
         </div>
         <div id="appendix_c_page">
             <div onclick="hideItem('appendix_c_page')" class="page_exit"></div>
-            <img class="header_img" src="./assets/Appendices cover.png">
             <div class="content">
                 <p class="page_subtitle" style="color:#e72d56">
                     <br>Appendix C: Loyalist College Council Report<br><br>
@@ -2417,7 +2415,6 @@
         </div>
         <div id="appendix_d_page">
             <div onclick="hideItem('appendix_d_page')" class="page_exit"></div>
-            <img class="header_img" src="./assets/Appendices cover.png">
             <div class="content">
                 <p class="page_subtitle">
                     <br>Appendix D: Summary of Advertising & Marketing
@@ -2520,34 +2517,30 @@
         </div>
         <div id="no_animation">
             <div id="panel_one_mobile">
-                <img id="in_a_world" data-aos="fade-up" data-aos-anchor-placement="top-center"
+                <img id="in_a_world" data-aos-once="false" data-aos="fade-down" data-aos-offset="100" data-aos-duration="500" data-aos-anchor-placement="top-center"
                     src="./assets/mobile-big circle.svg">
-                <img id="intro_student_mobile" data-aos="fade-up" data-aos-anchor-placement="top-center"
+                <img id="intro_student_mobile" data-aos="fade-up" data-aos-duration="750" data-aos-anchor-placement="top-center" data-aos-offset="-100"
                     src="./assets/student-1@2x.png">
-            </div>
-        </div>
-        <div id="no_animation" style="background-color:white;">
-            <div id="panel_two_mobile">
-                <img id="we_small" data-aos-duration="350" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom"
-                    src="./assets/mobile-small dot.svg">
+                <img id="white_dot_1" data-aos="fade-up" src="./assets/ver2-white dot.svg" data-aos-duration="1000" data-aos-delay="300" data-aos-offset="150">
+                <img id="white_dot_2" data-aos="fade-up" src="./assets/ver2-white dot.svg" data-aos-duration="1250" data-aos-delay="100" data-aos-offset="200">
+                <img id="white_dot_3" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000" src="./assets/ver2-white dot.svg">
+                <img id="we_small_text" data-aos="zoom-in" data-aos-offset="150" data-aos-delay="500" src="./assets/ver2-we are small text.svg">
             </div>
         </div>
         <div id="no_animation">
-            <img id="mobile_slogan" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom"
-                src="./assets/mobile-slogan.svg">
-            <img class="mobile_white_dot" data-aos="fade-in" data-aos-anchor-placement="bottom-bottom"
-                src="./assets/mobile-expandable dot.svg">
-            <img class="mobile_white_dot" data-aos="fade-in" data-aos-anchor-placement="bottom-bottom"
-                src="./assets/mobile-expandable dot.svg">
-            <img class="mobile_white_dot" data-aos="fade-in" data-aos-anchor-placement="bottom-bottom"
-                src="./assets/mobile-expandable dot.svg">
-            <img class="mobile_white_dot" data-aos="fade-in" data-aos-anchor-placement="bottom-bottom"
-                src="./assets/mobile-expandable dot.svg">
+            <div id="panel_two_mobile">
+                <img id="pink_dot_1" data-aos="fade-up" data-aos-duration="1000" src="./assets/ver2-pink dot.svg">
+                <img id="pink_dot_2" data-aos-offset="100" data-aos="fade-up" data-aos-duration="500" src="./assets/ver2-pink dot.svg">
+                <img id="pink_dot_3" data-aos-offset="100"data-aos="fade-up" data-aos-duration="1000" src="./assets/ver2-pink dot.svg">
+                <img id="pink_dot_4" data-aos="zoom-in" data-aos-duration="500" src="./assets/ver2-pink dot.svg">
+                <img id="small_gives_us_text" data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" src="./assets/ver2-small gives us text.svg">
+                <img id="the_power_text" data-aos="zoom-in" data-aos-offset="150" src="./assets/ver2- the power to do big things text.svg">
+            </div>
         </div>
         <div id="no_animation">
             <div id="panel_zero_static">
                 <img id="logo2x3" src="./assets/Asset 10.png" data-aos="fade-in"
-                    data-aos-anchor-placement="bottom-bottom" style="top:5%;">
+                    data-aos-duration="500" data-aos-anchor-placement="bottom-bottom" style="top:20%;">
             </div>
         </div>
         <div id="toc_home">
@@ -2639,17 +2632,55 @@
                         <p class="title" style="color:#e72d56">College Profile</p>
                     </div>
                 </div>
-                <div class="text" style="width: 50%;">
+                <div class="text" style="width: 100%; font-style:italic;">
                     Loyalist College is located on the territory of the Huron-Wendat, the Anishnaabeg, and the
                     Haudenosaunee people. We acknowledge our shared obligation to respect, honour, and sustain these
                     lands and the natural resources contained within.
                 </div>
-                <br><br>
-                <img style="width:65%; float:right; margin-bottom:2rem;" src="./assets/MNP-WLS-LOYALIST-033_(1).png">
-                <div onclick="showItem('college_profile_page')" id="open_college_profile_page" class="text"
-                    style="text-decoration:underline; width:65%; float:right;">View More</div>
-                <div style="clear:both;"><br><br><br></div>
+                <br>
+                <img style="width:100%; float:right; margin-bottom:3rem;" src="./assets/MNP-WLS-LOYALIST-033_(1).png">
             </div>
+            <div class="content">
+                <div class="text_ind">
+                    Loyalist College is located on more than 200 acres in the beautiful Bay of Quinte,
+                    and is the region’s only postsecondary institution, serving a population of 250,000,
+                    including the City of Belleville, City of Quinte West, Municipality of Brighton, Prince
+                    Edward County, Greater Napanee, and Tyendinaga Mohawk Territory. Perfectly
+                    positioned between Toronto, Ottawa, and Montreal, Loyalist is responsive to the needs
+                    of a regional concentration of interconnected communities, employers, institutions,
+                    sectors, and industries – from health care and tourism, to manufacturing,
+                    agritech and beyond. Embedded in deep relationships with local entrepreneurs
+                    and community services, Loyalist’s programming and curriculum are designed to
+                    meet evolving community and employer needs, while fostering growth in the Bay of
+                    Quinte region. According to annual <a target="_blank"
+                        href="https://azureloyalistcollege-my.sharepoint.com/personal/kgardner_loyalistcollege_com/Documents/Office%20of%20the%20President%20&%20CEO/Board%20Communications/2020-21%20KPI%20results.pdf">Key
+                        Performance Indicator</a> (KPI) results, Loyalist
+                    College exceeded the provincial average in graduate employment, with 85.3% of
+                    grads employed within six months, and in graduate satisfaction rate, with 82.6% of
+                    grads indicating they were “very satisfied” or “satisfied” despite facing significant
+                    disruptions to their studies due to the pandemic.<br><br>
+                </div>
+                <img style="width:80%; margin-left:10%;" src="./assets/NEW_Loyalist_College_Logo_(1).png"><br><br><br>
+                <div class="text_ind">
+                    In an impersonal world of big lecture halls and stadium seating, we know our
+                    students by name and circumstance. Our caring community of faculty, staff and
+                    community partners is prepared to move mountains to help every student succeed.
+                    A comprehensive set of wraparound supports, from counselling and tutoring to
+                    employment supports, offers learners customized, flexible solutions to lean on as
+                    they pursue their goals. Every student should feel like they matter and belong at
+                    Loyalist.<br><br>
+                </div>
+                <div class="text_ind">Loyalist is nimble and adaptable, able to pivot and to push the envelope with
+                    applied research, entrepreneurship, hands-on learning experiences and advanced
+                    curriculum. With state-of-the-art facilities and industry expertise, Loyalist has secured
+                    its place as one of <a target="_blank"
+                        href="https://www.loyalistcollege.com/news/loyalist-college-highest-ranked-top-50-research-college-in-the-region/">Canada’s
+                        Top 50 Research Colleges</a> and a leading destination for
+                    businesses to seek guidance and support as they launch big ideas, and scale and
+                    compete in the global market.<br><br>
+                </div>
+            </div>
+            <img class="header_img" src="./assets/page 6@2x.png">
         </div>
         <div id="message_from_president">
             <div class="content">
@@ -2832,7 +2863,6 @@
                     </p>
                     <br>
                     <img class="header_img" src="./assets/German_Delegation_Visit_May_2022-17.png">
-                    <u class="readmore-link"></u>
                 </div>
             </div>
         </div>
@@ -2925,7 +2955,6 @@
                         Spark of Spring (outdoor celebration) <br>
                         Country Bingo and Social Mixer<br><br>
                     </p>
-                    <u class="readmore-link"></u>
                 </div>
                 <br><br>
                 <div class="sec3_container">
@@ -3102,5 +3131,9 @@
 </script>
 
 <script>
-    AOS.init();
+    AOS.init({
+        once: false,
+        mirror: true
+    }
+    );
 </script>

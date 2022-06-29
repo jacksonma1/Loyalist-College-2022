@@ -225,7 +225,6 @@
 
 .readmore {
     color: #FFFFFF;
-    max-height: 30rem;
     position: relative;
     overflow: hidden;
     text-indent: 1rem;
@@ -234,25 +233,6 @@
 
 }
 
-.readmore.expand {
-    max-height: 5000px !important;
-    transition: max-height 0.35s ease-in-out;
-}
-
-.readmore-link {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    width: 100%;
-    height: 20rem;
-    justify-content: center;
-    align-items: flex-end;
-    color: #FFFFFF;
-    font-weight: normal;
-    font-size: 1.5rem;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #E72D56);
-    cursor: pointer;
-}
 @media screen and (max-width: 500px) {
     .readmore-link {
         height:6.5rem;
@@ -935,22 +915,91 @@
 #in_a_world {
     width:90%;
     margin-left:5%;
-    margin-top:10%;
+    margin-top:25%;
 }
 #panel_one_mobile{
-    height:155vw;
+    height:185vw;
+}
+#panel_two_mobile{
+    height:165vw;
+    background-image:url(./assets/ver2-\ background\ 2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 #intro_student_mobile{
     width:70%;
     position:absolute;
     left:15%;
-    bottom:0;
+    bottom:-1px;
+    z-index:20;
+}
+#white_dot_1{
+    width:23%;
+    position:absolute;
+    bottom:30vw;
+    left:5%;
+}
+#white_dot_2{
+    width:11%;
+    position:absolute;
+    bottom:50vw;
+    right:5%;
+}
+#white_dot_3{
+    width:37%;
+    position:absolute;
+    bottom:6vw;
+    right:32%;
+    z-index:25;
+}
+#we_small_text{
+    z-index:30;
+    position:absolute;
+    width:30%;
+    bottom:17vw;
+    right:35%;
 }
 #we_small{
     margin-top:15%;
     width:40%;
     margin-left:30%;
     margin-bottom:15%;
+}
+#pink_dot_1{
+    width:10%;
+    position:absolute;
+    top:65vw;
+    left:6vw;
+}
+#pink_dot_2{
+    width:20%;
+    position:absolute;
+    top:75vw;
+    left:17vw;
+}
+#pink_dot_3{
+    width:13%;
+    position:absolute;
+    top:73vw;
+    right:12vw;
+}
+#pink_dot_4{
+    width:45%;
+    position:absolute;
+    bottom:10vw;
+    right:7vw;
+}
+#small_gives_us_text{
+    width:60vw;
+    position:absolute;
+    top:82vw;
+    left:20vw;
+}
+#the_power_text{
+    width:60vw;
+    position:absolute;
+    top:120vw;
+    left:20vw;
 }
 #mobile_slogan{
     width:75%;
